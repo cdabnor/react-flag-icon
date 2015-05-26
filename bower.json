@@ -1,0 +1,29 @@
+{
+  "name": "react-flag-icon",
+  "version": "0.1.0",
+  "main": "react-flag-icon.jsx",
+  "ignore": [
+  ],
+  "dependencies": {
+    "flag-icon": "0.11.0",
+    "react": "0.13.2"
+  },
+  "devDependencies": {
+  },
+  "overrides": {
+    "flag-icon": {
+      "main": [
+        "flag-icon.html"
+      ]
+    },
+    "polymer": {
+      "main": ""
+    },
+    "react": {
+      "main": [
+        "react.js",
+        "JSXTransformer.js"
+      ]
+    }
+  }
+}
